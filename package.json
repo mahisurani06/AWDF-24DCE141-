@@ -1,0 +1,21 @@
+{
+  "name": "awdf--24dce141",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahisurani06/AWDF-24DCE141-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/mahisurani06/AWDF-24DCE141-/issues"
+  },
+  "homepage": "https://github.com/mahisurani06/AWDF-24DCE141-#readme"
+}
