@@ -6,18 +6,27 @@
 
 This practical demonstrates continuous integration using GitHub Actions for the Task Management application in Practical-5.
 
+### Aim
+To implement a CI pipeline that automatically runs ESLint and automated tests for the Task Management application.
+
 ### Workflow features
-- Automatically runs on pushes to `main`.
-- Runs on pull requests targeting `main`.
-- Sets up Node.js.
-- Installs project dependencies.
-- Executes automated tests using Jest.
+- Runs only when a pull request targets the `main` branch.
+- Installs Node.js dependencies using `npm ci`.
+- Runs ESLint as a separate job.
+- Runs automated Jest tests only after linting succeeds.
+- Displays the workflow status using a GitHub Actions badge.
+
+### Technologies used
+- GitHub Actions
+- Node.js and npm
+- ESLint
+- Jest
 
 ### Test results
-The initial workflow run failed, and after correcting the issue, the latest workflow run completed successfully.
+- ESLint completed locally with zero errors and two warnings.
+- Jest tests passed successfully on the local machine.
+- An earlier GitHub Actions workflow run completed successfully.
+- The updated workflow will be verified through this pull request.
 
-### Technologies
-- GitHub Actions
-- Node.js
-- npm
-- Jest
+### Result
+The CI pipeline has been configured to lint the code and run automated tests for the Task Management application.
