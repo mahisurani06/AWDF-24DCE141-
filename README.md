@@ -4,6 +4,8 @@
 
 ## Practical 12: CI/CD Pipeline with GitHub Actions
 
+This practical demonstrates continuous integration using GitHub Actions for the Task Management application in Practical-5.
+
 ### Aim
 To implement a CI pipeline that automatically runs ESLint and automated tests for the Task Management application.
 
@@ -20,5 +22,11 @@ To implement a CI pipeline that automatically runs ESLint and automated tests fo
 - ESLint
 - Jest
 
+### Test results
+- ESLint completed locally with zero errors and two warnings.
+- Jest tests passed successfully on the local machine.
+- An earlier GitHub Actions workflow run completed successfully.
+- The updated workflow will be verified through this pull request.
+
 ### Result
-The ESLint command completed with zero errors and two warnings. The Jest test suite passed successfully on the local machine. The GitHub Actions workflow will be verified through a pull request targeting `main`.
+The CI pipeline has been configured to lint the code and run automated tests for the Task Management application.
